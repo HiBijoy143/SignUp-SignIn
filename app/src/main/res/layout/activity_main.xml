@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <EditText android:id="@+id/emailTextId"
+    android:layout_marginTop="30sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Email"
+        android:inputType="textEmailAddress"
+    android:textColor="@android:color/black"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    />
+
+    <EditText android:id="@+id/passwordTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        />
+
+    <Button android:id="@+id/signInButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30sp"
+        android:text="Sign In"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"/>
+
+    <TextView android:id="@+id/signUpTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you not Registered? Sign Up"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textSize="18sp"/>
+    <ProgressBar android:id="@+id/signprogressBarid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1088217203800",
+    "firebase_url": "https://firbase1-dfc4c.firebaseio.com",
+    "project_id": "firbase1-dfc4c",
+    "storage_bucket": "firbase1-dfc4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088217203800:android:80ed8cf69b847f9871762d",
+        "android_client_info": {
+          "package_name": "com.example.firbase1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088217203800-sr7hprvpij9unp8covce1erf47dgp8su.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFmwnCZmNC7LWy3p6dRx4gLSA1B371mok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088217203800-sr7hprvpij9unp8covce1erf47dgp8su.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
